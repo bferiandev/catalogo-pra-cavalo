@@ -1,0 +1,614 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo Pra Cavalo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cinzel&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0 10px;
+    }
+    .logo img {
+      max-width: 150px;
+      height: auto;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      font-size: 40px;
+      color: #111;
+    }
+    .subtitulo {
+      font-family: 'Cinzel', serif;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 2px;
+      margin-top: 5px;
+      color: #444;
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background: #fff;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .menu a {
+      margin: 5px 10px;
+      text-decoration: none;
+      color: #004aad;
+      border: 1px #004aad;
+      padding: 6px 12px;
+      border-radius: 20px;
+      transition: 0.3s;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .menu a:hover {
+      background: #004aad;
+      color: white;
+    }
+    .categoria {
+      padding: 40px 20px 20px;
+    }
+    .categoria h2 {
+      color: #333;
+      border-left: 5px solid #004aad;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: flex-start;
+    }
+    .produto {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 10px;
+      text-align: center;
+    }
+    .produto img {
+      width: 180px;
+      height: 180px;
+      object-fit: contain;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    .descricao {
+      font-size: 14px;
+      margin-bottom: 6px;
+      color: #555;
+    }
+    .sku {
+      font-size: 13px;
+      color: #999;
+      margin-bottom: 5px;
+    }
+    .preco {
+      font-size: 16px;
+      font-weight: bold;
+      color: #0A7B5E;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 12px 18px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+      transition: 0.3s;
+    }
+    .whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="https://i.imgur.com/CDcMZAb.jpeg" alt="Logo Pra Cavalo">
+  </div>
+  <h1>CATÁLOGO</h1>
+  <div class="subtitulo">PRA CAVALO</div>
+
+  <div class='menu'>
+<a href='#Abrilhantador'>Abrilhantador</a>
+<a href='#Repelente'>Repelente</a>
+<a href='#Shampoo'>Shampoo</a>
+<a href='#Condicionador'>Condicionador</a>
+<a href='#Casco'>Casco</a>
+<a href='#Couro'>Couro</a>
+<a href='#Outros'>Outros</a>
+</div>
+
+<div class='categoria' id='Abrilhantador'>
+<h2>Abrilhantador</h2>
+<div class='produtos'>
+
+        <div class="produto">
+            <img src="https://i.imgur.com/9DMkyCm.jpeg" alt="BRAITE ABRILHANTADOR">
+            <div class="descricao">BRAITE ABRILHANTADOR TRADICIONAL 500 ML</div>
+            <div class="sku">SKU: BR500A</div>
+            <div class="preco">R$ 51,19</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://i.imgur.com/R3og2aD.jpeg" alt="BRAITE ABRILHANTADOR CLASSICO">
+            <div class="descricao">BRAITE ABRILHANTADOR TRADICIONAL 1 LITRO</div>
+            <div class="sku">SKU: BR1LA</div>
+            <div class="preco">R$ 82,64</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://i.imgur.com/tFalOfk.jpeg" alt="BRAITE ABRILHANTADOR">
+            <div class="descricao">BRAITE ABRILHANTADOR TRADICIONAL 5 LITROS</div>
+            <div class="sku">SKU: BR5L</div>
+            <div class="preco">R$ 337,94</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://i.imgur.com/uAkeeIx.jpeg" alt="BRAITE HERBAL ABRILHANTADOR">
+            <div class="descricao">BRAITE ABRILHANTADOR HERBAL 500 ML</div>
+            <div class="sku">SKU: BH500A</div>
+            <div class="preco">R$ 56,22</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://i.imgur.com/1r0Spl2.jpeg" alt="BRAITE HERBAL ABRILHANTADOR">
+            <div class="descricao">BRAITE ABRILHANTADOR HERBAL 1 LITRO</div>
+            <div class="sku">SKU: BH1LA</div>
+            <div class="preco">R$ 91,38</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://i.imgur.com/h8s8Utv.jpeg" alt="BRAITE HERBAL ABRILHANTADOR FULL">
+            <div class="descricao">BRAITE ABRILHANTADOR HERBAL 5 LITROS</div>
+            <div class="sku">SKU: BH5L</div>
+            <div class="preco">R$ 374,26</div>
+        </div>
+        </div>
+</div>
+
+<div class='categoria' id='Repelente'>
+<h2>Repelente</h2>
+<div class='produtos'>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITRONELA 100 ML - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KF100S</div>
+            <div class="preco">R$ 32,88</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITRONELA 250 ML - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KF250S</div>
+            <div class="preco">R$ 56,76</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITRONELA 500 ML - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KF500A</div>
+            <div class="preco">R$ 88,99</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITRONELA 1 LITRO - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KF1LA</div>
+            <div class="preco">R$ 160,19</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITRONELA REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KF5L</div>
+            <div class="preco">R$ 683,76</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITROCARE 100 ML - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KK100S</div>
+            <div class="preco">R$ 26,23</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITROCARE 250 ML - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KK250S</div>
+            <div class="preco">R$ 42,54</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITROCARE 500 ML - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KK500A</div>
+            <div class="preco">R$ 75,37</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITROCARE 1 LITRO - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KK1LA</div>
+            <div class="preco">R$ 129,52</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITROCARE REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KK5L</div>
+            <div class="preco">R$ 530,64</div>
+        </div>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CRAVO 500 ML - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KC500A</div>
+            <div class="preco">R$ 74,81</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CRAVO 1 LITRO - REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KC1LA</div>
+            <div class="preco">R$ 132,97</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CRAVO REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KC5L</div>
+            <div class="preco">R$ 554,99</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="KARFLAE CITRONELA REPELENTE DE MOSCAS">
+            <div class="descricao">KARFLAE CITRONELA REPELENTE DE MOSCAS</div>
+            <div class="sku">SKU: KF100P</div>
+            <div class="preco">R$ 66,09</div>
+        </div>
+
+        </div>
+</div>
+
+<div class='categoria' id='Shampoo'>
+<h2>Shampoo</h2>
+<div class='produtos'>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SABÃO LIQUIDO DE COCO">
+            <div class="descricao">SABÃO LIQUIDO DE COCO 1 LITRO</div>
+            <div class="sku">SKU: SC1L</div>
+            <div class="preco">R$ 49,51</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SABÃO LIQUIDO DE COCO">
+            <div class="descricao">SABÃO LIQUIDO DE COCO 5 LITROS</div>
+            <div class="sku">SKU: SC5L</div>
+            <div class="preco">R$ 172,06</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SABÃO PROFISSIONAL">
+            <div class="descricao">SABÃO PROFISSIONAL 1 LITRO</div>
+            <div class="sku">SKU: SP1L</div>
+            <div class="preco">R$ 52,47</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SABÃO PROFISSIONAL">
+            <div class="descricao">SABÃO PROFISSIONAL 5 LITROS</div>
+            <div class="sku">SKU: SP5L</div>
+            <div class="preco">R$ 182,63</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO AZUL ANIL">
+            <div class="descricao">SHAMPOO AZUL ANIL 1 LITRO</div>
+            <div class="sku">SKU: SA1L</div>
+            <div class="preco">R$ 52,47</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO AZUL ANIL">
+            <div class="descricao">SHAMPOO AZUL ANIL 5 LITROS</div>
+            <div class="sku">SKU: SA5L</div>
+            <div class="preco">R$ 182,63</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO REPELENTE">
+            <div class="descricao">SHAMPOO REPELENTE 1 LITRO</div>
+            <div class="sku">SKU: SR1L</div>
+            <div class="preco">R$ 54,62</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO REPELENTE">
+            <div class="descricao">SHAMPOO REPELENTE 5 LITROS</div>
+            <div class="sku">SKU: SR5L</div>
+            <div class="preco">R$ 188,83</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO NEUTRO">
+            <div class="descricao">SHAMPOO NEUTRO 1 LITRO</div>
+            <div class="sku">SKU: SH1L</div>
+            <div class="preco">R$ 52,87</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO NEUTRO">
+            <div class="descricao">SHAMPOO NEUTRO 5 LITROS</div>
+            <div class="sku">SKU: SH5L</div>
+            <div class="preco">R$ 192,85</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO GLICERINA">
+            <div class="descricao">SHAMPOO COM GLICERINA 1 LITRO</div>
+            <div class="sku">SKU: SG1L</div>
+            <div class="preco">R$ 59,71</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="SHAMPOO GLICERINA">
+            <div class="descricao">SHAMPOO COM GLICERINA 5 LITROS</div>
+            <div class="sku">SKU: SG5L</div>
+            <div class="preco">R$ 225,28</div>
+        </div>
+        
+        </div>
+</div>
+
+<div class='categoria' id='Condicionador'>
+<h2>Condicionador</h2>
+<div class='produtos'>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR PROFISSIONAL">
+            <div class="descricao">CREME CONDICIONADOR PROFISSIONAL 1 LITRO</div>
+            <div class="sku">SKU: CCP1L</div>
+            <div class="preco">R$ 56,77</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR PROFISSIONAL">
+            <div class="descricao">CREME CONDICIONADOR PROFISSIONAL 5 LITROS</div>
+            <div class="sku">SKU: CCP5L</div>
+            <div class="preco">R$ 197,72</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR AZUL ANIL">
+            <div class="descricao">CREME CONDICIONADOR AZUL ANIL 1 LITRO</div>
+            <div class="sku">SKU: CCA1L</div>
+            <div class="preco">R$ 56,77</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR AZUL ANIL">
+            <div class="descricao">CREME CONDICIONADOR AZUL ANIL 5 LITROS</div>
+            <div class="sku">SKU: CCA5L</div>
+            <div class="preco">R$ 197,72</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR REPELENTE">
+            <div class="descricao">CREME CONDICIONADOR REPELENTE 1 LITRO</div>
+            <div class="sku">SKU: CCR1L</div>
+            <div class="preco">R$ 54,62</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR REPELENTE">
+            <div class="descricao">CREME CONDICIONADOR REPELENTE 5 LITROS</div>
+            <div class="sku">SKU: CCR5L</div>
+            <div class="preco">R$ 196,88</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR NEUTRO">
+            <div class="descricao">CREME CONDICIONADOR 1 LITRO</div>
+            <div class="sku">SKU: CC1L</div>
+            <div class="preco">R$ 54,76</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR NEUTRO">
+            <div class="descricao">CREME CONDICIONADOR 5 LITROS</div>
+            <div class="sku">SKU: CC5L</div>
+            <div class="preco">R$ 191,68</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR GLICERINA">
+            <div class="descricao">CREME CONDICIONADOR COM GLICERINA 1 LITRO</div>
+            <div class="sku">SKU: CCG1L</div>
+            <div class="preco">R$ 58,34</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="CONDICIONADOR GLICERINA">
+            <div class="descricao">CREME CONDICIONADOR COM GLICERINA 5 LITROS</div>
+            <div class="sku">SKU: CCG5L</div>
+            <div class="preco">R$ 214,42</div>
+        </div>
+        
+        </div>
+</div>
+
+<div class='categoria' id='Casco'>
+<h2>Casco</h2>
+<div class='produtos'>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="VITA CASCO - CERA PARA CASCOS">
+            <div class="descricao">VITA CASCO 300G - CERA PARA CASCOS</div>
+            <div class="sku">SKU: VC300</div>
+            <div class="preco">R$ 64,77</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="VITA CASCO - CERA PARA CASCOS">
+            <div class="descricao">VITA CASCO 500G - CERA PARA CASCOS</div>
+            <div class="sku">SKU: VC500</div>
+            <div class="preco">R$ 105,97</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="PRO CASCO - CERA PARA CASCOS">
+            <div class="descricao">PRO CASCO 300G - CERA PARA CASCOS</div>
+            <div class="sku">SKU: PC300</div>
+            <div class="preco">R$ 48,80</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="PRO CASCO - CERA PARA CASCOS">
+            <div class="descricao">PRO CASCO 500G - CERA PARA CASCOS</div>
+            <div class="sku">SKU: PC500</div>
+            <div class="preco">R$ 77,84</div>
+        </div>
+
+        </div>
+</div>
+<div class='categoria' id='Couro'>
+<h2>Couro</h2>
+<div class='produtos'>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">COURO NOVO 500 ML - SABÃO LÍQUIDO DE GLICERINA</div>
+            <div class="sku">SKU: CN500A</div>
+            <div class="preco">R$ 44,64</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">COURO NOVO 1 LITRO - SABÃO LÍQUIDO DE GLICERINA</div>
+            <div class="sku">SKU: CN1LA</div>
+            <div class="preco">R$ 69,49</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">COURO NOVO 5 LITROS - SABÃO LÍQUIDO DE GLICERINA</div>
+            <div class="sku">SKU: CN5L</div>
+            <div class="preco">R$ 261,78</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">COURO NOVO LAVANDA 500 ML - SABÃO LÍQUIDO DE GLICERINA</div>
+            <div class="sku">SKU: CL500A</div>
+            <div class="preco">R$ 55,74</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">COURO NOVO MOUSSE 200 ML - SABÃO LÍQUIDO DE GLICERINA</div>
+            <div class="sku">SKU: CN200M</div>
+            <div class="preco">R$ 45,90</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">POLISH TRADICIONAL 350G - CERA PARA COURO</div>
+            <div class="sku">SKU: POLISH350</div>
+            <div class="preco">R$ 39,15</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">POLISH LAVANDA 350G - CERA PARA COURO</div>
+            <div class="sku">SKU: PLAVANDA</div>
+            <div class="preco">R$ 45,56</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="COURO NOVO - SABÃO LÍQUIDO DE GLICERINA">
+            <div class="descricao">ARISTOCRATA 300G - CERA PARA COURO</div>
+            <div class="sku">SKU: AR300</div>
+            <div class="preco">R$ 56,64</div>
+        </div>
+
+
+        </div>
+</div>
+
+<div class='categoria' id='Outros'>
+<h2>Outros</h2>
+<div class='produtos'>
+
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="BALSAMO">
+            <div class="descricao">BALSAMO 100G - CICATRIZANTE</div>
+            <div class="sku">SKU: BAL100</div>
+            <div class="preco">R$ 61,56</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="LINIMEX">
+            <div class="descricao">LINIMEX 100G - LINIMENTO PARA DORES</div>
+            <div class="sku">SKU: LIN100</div>
+            <div class="preco">R$ 44,71</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="LINIMEX">
+            <div class="descricao">LINIMEX 450G - LINIMENTO PARA DORES</div>
+            <div class="sku">SKU: LIN450</div>
+            <div class="preco">R$ 104,05</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="BANHO DE MENTA 500 ML">
+            <div class="descricao">BANHO DE MENTA 500 ML</div>
+            <div class="sku">SKU: BM500A</div>
+            <div class="preco">R$ 58,64</div>
+        </div>
+        
+        <div class="produto">
+            <img src="https://via.placeholder.com/220x180.png?text=Imagem+Produto" alt="MEIA DUCHA 500 ML">
+            <div class="descricao">MEIA DUCHA 500 ML</div>
+            <div class="sku">SKU: MD500A</div>
+            <div class="preco">R$ 64,87</div>
+        </div>
+        
+        </div>
+</div>
+
+
+  <a href="https://wa.me/5515996471651" class="whatsapp" target="_blank">Fale Conosco no WhatsApp</a>
+
+</body>
+</html>
